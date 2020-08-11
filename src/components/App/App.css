@@ -1,0 +1,95 @@
+/* common css */
+html {
+  font-size: 18px;
+}
+
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 0.77rem 0;
+  background-color: #010c3f;
+}
+
+header h1 {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.88rem;
+}
+
+header h1 .highlight {
+  color: #6c41ec;
+}
+
+
+
+/* MAIN */
+.App {
+  font-family: 'Work Sans', sans-serif;
+  color: #fff;
+  font-weight: 500;
+  background-image: url(./background_photo_desktop.jpg);
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.App-contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid teal;
+  margin: 0 auto;
+  padding: 0 17% 10% 17%;
+}
+
+
+
+
+@media screen and (max-width: 1020px) {
+  .App-contents {
+    flex-direction: column;
+  }
+}
+
+
+
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

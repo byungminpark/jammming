@@ -1,0 +1,39 @@
+.Track {
+  position: relative;
+  font-family: 'Work Sans', serif;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.86);
+}
+
+
+
+/* .Track-info {} */
+/* .Track-info h3 {} */
+.Track-info span {
+  font-size: .9rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.74);
+}
+
+
+.Track-action {
+  position: absolute;
+  right: 0;
+  top: calc(50% - (1.1rem/2));
+  width: 32px;
+  height: 32px;
+  font-size: 1.1rem;
+  transition: .3s;
+}
+
+.Track-action:hover {
+  color: rgba(225, 225, 225, 0.68)
+}
+
+.plus::before {
+  content: "+";
+}
+
+.minus::before {
+  content: "-";
+}

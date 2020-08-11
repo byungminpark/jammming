@@ -1,0 +1,30 @@
+/* .TrackList {
+  width: 55%;
+  height: 950px;
+  padding: .88rem;
+  background-color: rgba(1,12,63,.7);
+  border: 1px solid tomato;
+  box-shadow: 0px 4px 4px 2px black;
+  box-sizing: border-box;
+  overflow-y: scroll;
+
+  scrollbar-width: none;
+
+  -ms-overflow-style: none; 
+}
+.TrackList::-webkit-scrollbar {
+
+  display: none;
+}
+
+.TrackList h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.55rem;
+}
+
+@media screen and (max-width: 1020px) {
+  .TrackList {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+} */
